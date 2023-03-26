@@ -162,12 +162,13 @@ p {
  .box-container .box h3{
     font-size: 20px;
     color: #012E40;
-
+    text-align: center;
  }
 
  .box-container .box p{
     font-size: 16px;
     padding: 0 15px;
+    text-align: center;
  }
 
  .about {
@@ -206,3 +207,4 @@ p {
     }
     
  }
+
