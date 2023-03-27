@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  
+}
+
+body{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ol{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #011526;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+margin-left: 30px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #012E40;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(/HTML/Imagenes/instalaciones1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 200%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px 10px #012E40;
+    color: white;
+    text-decoration: none;
+    background: #011526;
+}
+
+.btn:hover {
+    background: local;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+    display: flex;
+    
+}
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau{
+    padding: 50px;
+    background: #011526;
+
+}
+
+.box-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+
+.box-container .box{
+    height: 20rem;
+    width: 17rem;
+    background: #011526;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(39, 38, 38, 0.5);
+    margin: 2rem;
+}
+
+.box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #012E40;
+    font-size: 2rem;
+    margin: 1rem 0;
+ }
+
+ .box-container .box h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+ }
+
+ .box-container .box p{
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: center;
+ }
+
+ .box-container .card {
+    display: inline-block;
+ }
+
+ .about {
+    background-color: #171717;
+ }
+
+ .about h2{
+    color: white;
+ }
+
+ .about p{
+    color: white;
+ }
+
+ .price {
+    background: url(/HTML/Imagenes/instalaciones1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+ }
+
+ .contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+
+
+ }
+
+.carousel-item{
+    width: absolute;
+    align-content: center;
+    height: 500px;
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+}
+
+.carousel-item .h5{
+   color: #171717;
+}
+
+ @media (max-width: 768px) {
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+ }
+
+ 
+
+
