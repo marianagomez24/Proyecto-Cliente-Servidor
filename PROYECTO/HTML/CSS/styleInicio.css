@@ -72,7 +72,7 @@ header{
 
 .header {
     height: 60vh !important;
-    background: url(/HTML/Imagenes/inicio2.jpg) no-repeat center;
+    background: url(/PROYECTO/HTML/Imagenes/inicio2.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -176,7 +176,7 @@ p {
  }
 
  .price {
-    background: url(/HTML/Imagenes/inicio.jpg) no-repeat center;
+    background: url(/PROYECTO/HTML/Imagenes/inicio.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
