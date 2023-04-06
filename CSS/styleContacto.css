@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+body{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ol{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #011526;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+margin-left: 30px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #012E40;
+}
+
+
+.content-formulario {
+    height: 450px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+}
+
+.content-formulario h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.content-formulario p {
+
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.content-formulario a {
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.content-formulario a i {
+    color: #011526;
+    margin-right: 10px;
+}
+
+.content-formulario form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #012E40;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.content-formulario form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.content-formulario .btn-mensaje {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #011526;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-formulario .btn-mensaje:hover{
+    background: #03e9f4;
+}
+
+/*FOOTER*/
+
+.piePagina{
+    width: 100%;
+    background-color: #011526;
+    text-align: center;
+
+}
+
+.piePagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.piePagina .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 100px;
+}
+
+.piePagina .grupo1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.piePagina .grupo1 .box p {
+    color: #efefef ;
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo1 .redsocial a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #012E40;
+    transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .redsocial a:hover{
+    color: #03e9f4;
+}
+
+.piePagina .grupo2 {
+    background-color: #011526;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.piePagina .grupo2 small{
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:800px){
+    .piePagina .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+
