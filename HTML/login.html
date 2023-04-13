@@ -175,25 +175,19 @@
 
 </style> 
 </head>
-<body>
+<body> 
     <div class="contenedor">
         <h2>Inicio de Sesión</h2>
-        <form action="">
+        <form action="../PHP/Login.php" method="POST">
             <div class="usuario">
-            <input type="text" required>
+            <input type="text" name="CorreoL" required>
             <label>Correo</label>
             </div>
             <div class="usuario">
-            <input type="password" required>
+            <input type="password" name="contraseñaL" required>
             <label>Contraseña</label>
             </div>
-    <a href="/HTML/index.html">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Iniciar
-    </a>
+            <button type="submit">iniciar</button>
         </form>
     </div>
 </body>
