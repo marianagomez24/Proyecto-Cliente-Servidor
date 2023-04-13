@@ -311,7 +311,7 @@ h4{
     
 
 </style> 
-<source src="PhpBD/BD.php">
+<source src="BD.php">
 </head>
 
 <body>
@@ -320,7 +320,7 @@ h4{
         <h2>Registro</h2>
         
        
-        <form action="PhpBD/BD.php" method="post">
+        <form action="BD.php" method="post">
             <div class="usuario">
                 <input type="text" name="nombre" required>
                 <label>Nombre</label>
@@ -349,12 +349,13 @@ h4{
                 <span id="error-contrasena" class="errorp">Las contraseñas no coinciden.</span>
             </div>
             <button type="submit" class="boton">Registrar</button>
+            <script src="../JS/confirmar.js"></script>
 
         </form>
     </div>
 
     
-   <script src="Proyecto ambiente/javaScript/confirmar.js"></script>
+  
 
 
 </body>
