@@ -14,7 +14,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="Estilos/estiloE.css">
+  <link rel="stylesheet" href="../CSS/styleInicio.css">
   <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   
 
@@ -31,22 +31,21 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
         <div class="logo">
             <a href="#">Capital Gym</a>
         </div>
-
         <nav class="navbar">
-            <a href="index.php">inicio</a>
-            <a href="Compras.php">Planes</a>
-            <a href="Contacto.php">Contacto</a>
-            <a href="Horario.html">Horario</a>
-            <a href="Personal.php">Nosotros</a>
-                 <?php if (isset($_SESSION['correo'])) { ?>
-            <a href="../PHP/perfil.php">Perfil</a>
-                <?php } else { ?>
-            <a href="../PHP/Registro.php">Registro</a>
-                <?php } ?>
-                <?php if (!$logged_in && !isset($_SESSION['correo'])) { ?>
-            <a href="login.html">Iniciar sesión</a>
-                <?php } ?>
-        </nav>
+    <a href="index.php">inicio</a>
+    <a href="Compras.php">Planes</a>
+    <a href="Contacto.php">Contacto</a>
+    <a href="Horario.php">Horario</a>
+    <a href="Personal.php">Nosotros</a>
+         <?php if (isset($_SESSION['correo'])) { ?>
+    <a href="../PHP/perfil.php">Perfil</a>
+        <?php } else { ?>
+    <a href="../PHP/Registro.php">Registro</a>
+        <?php } ?>
+        <?php if (!$logged_in && !isset($_SESSION['correo'])) { ?>
+    <a href="login.html">Iniciar sesión</a>
+        <?php } ?>
+</nav>
 
     </div>
    
@@ -69,11 +68,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
     </div>
     
     <script src="../JS/imagenFuncion.Js"></script>
-    
-    
-   
-  
-  
+       
    
     
       <div style="background-image: url('../IMG/fondogim.jpg'); background-repeat: no-repeat; background-size: cover; position: relative; width: 100%; height: 100%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: rgba(53, 52, 52, 0.5); background-blend-mode: multiply;">
@@ -158,26 +153,38 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
        
       </div>
     </div>
-  </section>
-      
-        
-      
-  
-
-
-<footer>
-    <div id="footer">
-      <div class="footer-container">
-        <div>
-          <img src="../IMG/pngtree-instagram-icon-png-image_6315974.png" alt="Imagen 1">
+  </section>                      
+  <footer class="piePagina">
+<div class="grupo1">
+     <div class="box">
+        <figure>
+            <a href="">
+                <img src="../IMG/ejercicio.png" alt="LogoCapitalGym">
+            </a>
+        </figure>
+     </div>
+     <div class="box">
+        <h2>Sobre Nosotros</h2>
+        <p>Contamos con mas de 200 sedes alrededor de todo el territorio nacional.</p>
+        <p>No dudes en formar parte del mejor gimnasio de Costa Rica.</p>
+     </div>
+     <div class="box">
+        <h2>Síguenos</h2>
+        <div class="redsocial">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
         </div>
-        <div>
-          <img src="../IMG/Facebook_f_logo_(2019).png" alt="Imagen 2">
-        </div>
-        <div>
-          <img src="../IMG/Twitter-logo-png.png" alt="Imagen 3">
-        </div>
-      </div>
+     </div>
+     
+</div>
+<div class="grupo2">
+    <small>&copy;2023 <b>Capital Gym</b> Todos los Derechos de Autor Reservados.</small>
+</div>
+<div class="grupo3">
+</div>
+    
 </footer>
 </body>
 </html>

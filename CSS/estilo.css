@@ -210,46 +210,4 @@ img {
   }
   
 
-  
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50px;
-    text-align: end;
-    gap: 10px;
-}
-.footer-container {
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-container img {
-    width: 70px;
-    margin-right: 20px;
-}
-
-
-
-
 

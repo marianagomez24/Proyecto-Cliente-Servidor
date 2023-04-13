@@ -61,12 +61,12 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 
     <form action="../PHP/ProcesarMensaje.php" method="post" autocomplete="off">
         <input type="text" name="nombreC" placeholder="Ingresa tu nombre"
-        class="campo">
+        class="campo" required>
 
         <input type="email" name="emailC" placeholder="Ingresa tu correo electronico"
-        class="campo">
+        class="campo" required>
 
-        <textarea name="mensajeC" placeholder="Ingresa tu mensaje"> </textarea>
+        <textarea name="mensajeC" placeholder="Ingresa tu mensaje" > </textarea>
         <input type="submit" name="enviar" value="Enviar mensaje" class="btn-mensaje">
         <script>
     // Obtener los parámetros de la URL

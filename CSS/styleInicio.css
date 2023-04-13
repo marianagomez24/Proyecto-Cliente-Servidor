@@ -7,7 +7,7 @@
   
 }
 
-body{
+body{ 
     text-align: center;
     font-family: 'Nuosu SIL', serif;
     font-family: 'Oswald', sans-serif;
@@ -206,6 +206,16 @@ p {
     }
     
  }
+
+ h1 {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
 
 /*FOOTER*/
 

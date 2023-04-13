@@ -29,7 +29,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
             <a href="index.php">inicio</a>
             <a href="Compras.php">Planes</a>
             <a href="Contacto.php">Contacto</a>
-            <a href="Horario.html">Horario</a>
+            <a href="Horario.php">Horario</a>
             <a href="Personal.php">Nosotros</a>
                  <?php if (isset($_SESSION['correo'])) { ?>
             <a href="../PHP/perfil.php">Perfil</a>
@@ -90,7 +90,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
             <p>Contamos con mas de 200 sedes alrededor de todo el territorio nacional. No dudes en formar parte del mejor gimnasion de Costa Rica.
             </p>
 
-            <a href="#" class="btn">Adquiere tu plan</a>
+            <a href="compras.php" class="btn">Adquiere tu plan</a>
 
         </article>
 
