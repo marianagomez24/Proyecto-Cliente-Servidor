@@ -34,3 +34,7 @@ CREATE TABLE mensaje (
     Mail VARCHAR(100) NOT NULL,
     Mensaje VARCHAR(500) NOT NULL
 );
+CREATE VIEW vista_usuarios AS
+SELECT u.nombre, u.apellido_paterno, u.apellido_materno, u.fecha_creacion, m.nombre AS membresia, u.correo
+FROM usuarios u
+LEFT JOIN membresias m ON u.membresiaId = m.id;
