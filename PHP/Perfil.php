@@ -197,11 +197,12 @@ header{
       <button id="edit-photo-btn">Editar foto</button>
     </div>
   </div>
-  <div class="profile-data">
+   <div class="profile-data">
     <h1 contenteditable="true"><?php echo $nombre; ?></h1>
     <h1><?php echo $apellido_paterno;?></h1>
     <h1><?php echo $apellido_materno;?></h1>
     <h1><?php echo $fecha_creacion;?></h1>
+    <h1><?php echo $membresia;?></h1>
   </div>
 </div>
 
