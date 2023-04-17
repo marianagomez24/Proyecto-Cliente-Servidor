@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  
+}
+
+body{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ol{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #011526;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+margin-left: 30px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #012E40;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background-image: url(../IMG/fondoInicio.jpg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+
+
+
+.flex-container {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #paypal-button-container-1,
+  #paypal-button-container-2,
+  #paypal-button-container-3 {
+    flex: 1;
+    margin-right: 10px; /* ajusta el margen entre botones */
+    transform: scale(1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #paypal-button-container-1 img,
+  #paypal-button-container-2 img,
+  #paypal-button-container-3 img {
+    width: 75%;
+    height: 75%;
+  }
+  
+  .dorado {
+    font-size: 30px;
+    color: black;
+    animation: dorado 9s linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes dorado {
+    0% {
+      color: black;
+    }
+    50% {
+      color: gold;
+    }
+    100% {
+      color: black;
+    }
+  }
+  
+  .plata {
+    font-size: 30px;
+    color: black;
+    animation: plata 9s linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes plata {
+    0% {
+      color: black;
+    }
+    50% {
+      color: rgb(0, 76, 255);
+    }
+    100% {
+      color: black;
+    }
+  }
+  
+  .bronce {
+    font-size: 30px;
+    color: black;
+    animation: bronce 9s linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes bronce {
+    0% {
+      color: black;
+    }
+    50% {
+      color: rgb(204, 102, 0);
+    }
+    100% {
+      color: black;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .piePagina{
+    width: 100%;
+    background-color: #011526;
+
+}
+
+.piePagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.piePagina .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 100px;
+}
+
+.piePagina .grupo1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.piePagina .grupo1 .box p {
+    color: #efefef ;
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo1 .redsocial a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #012E40;
+    transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .redsocial a:hover{
+    color: #03e9f4;
+}
+
+.piePagina .grupo2 {
+    background-color: #011526;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.piePagina .grupo2 small{
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:800px){
+    .piePagina .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
+}
