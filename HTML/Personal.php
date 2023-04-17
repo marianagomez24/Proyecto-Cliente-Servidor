@@ -49,7 +49,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 
     </div>
    
-    <div style="background-image: url('Estilos/fondo.avif'); background-repeat: no-repeat; background-size: cover; position: relative; width: 100%; height: 35%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background-image: url('../CSS/fondo.avif'); background-repeat: no-repeat; background-size: cover; position: relative; width: 100%; height: 35%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center;">
       <div id="imagenes">
         <h1>Entrenadores</h1>
         <div>
