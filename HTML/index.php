@@ -19,7 +19,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 </head>
 <body>
 
-    <div class="head">
+   <div class="head">
 
         <div class="logo">
             <a href="#">Capital Gym</a>
@@ -51,8 +51,8 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
         </p>
 
         <div class="btn-home">
-            <a href="/HTML/registro.html" class="btn">Registro</a>
-            <a href="/HTML/login.html" class="btn">Iniciar Sesión</a>
+            <a href="../PHP/Registro.php" class="btn">Registro</a>
+            <a href="login.html" class="btn">Iniciar Sesión</a>
         </div>
     </header>
 
