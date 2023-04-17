@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge>">
+  <meta name="viewport" content="width=device-width, initial-scale">
+  <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/estiloLogin.css">
+  <title>Inicio de Sesión</title>
+</head>
+<body> 
+    <div class="contenedor">
+        <h2>Inicio de Sesión</h2>
+        <form action="../PHP/Login.php" method="POST">
+            <div class="usuario">
+            <input type="text" name="CorreoL" required>
+            <label>Correo</label>
+            </div>
+            <div class="usuario">
+            <input type="password" name="contraseñaL" required>
+            <label>Contraseña</label>
+            </div>
+            <button type="submit">iniciar</button>
+        </form>
+    </div>
+</body>
+</html>
