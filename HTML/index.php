@@ -29,7 +29,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
             <a href="index.php">inicio</a>
             <a href="Compras.php">Planes</a>
             <a href="Contacto.php">Contacto</a>
-            <a href="Horario.html">Horario</a>
+            <a href="Horario.php">Horario</a>
             <a href="Personal.php">Nosotros</a>
                  <?php if (isset($_SESSION['correo'])) { ?>
             <a href="../PHP/perfil.php">Perfil</a>
