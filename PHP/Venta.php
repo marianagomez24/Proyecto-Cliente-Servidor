@@ -18,8 +18,9 @@
     <a href="#">Capital Gym</a>
 </div>
 
-<nav class="navbar">
+ <nav class="navbar">
     <a href="../HTML/index.php">Inicio</a>
+    <a href="../HTML/instalaciones.php">Instalaciones</a>
     <a href="../HTML/Compras.php" >Planes</a>
     <a href="../HTML/Contacto.php">Contacto</a>
     <a href="../HTML/Horario.php">Horario</a>
