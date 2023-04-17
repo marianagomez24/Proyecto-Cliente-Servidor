@@ -29,6 +29,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 
 <nav class="navbar">
     <a href="index.php">inicio</a>
+    <a href="instalaciones.php">Instalaciones</a>
     <a href="Compras.php">Planes</a>
     <a href="Contacto.php">Contacto</a>
     <a href="Horario.php">Horario</a>
