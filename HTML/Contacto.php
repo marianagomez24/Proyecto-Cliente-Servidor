@@ -49,7 +49,11 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
     <section class="content-formulario">
     <div class="info-formulario">
         <h2>Contáctanos</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias quasi voluptas, laboriosam itaque quae cum cupiditate, nihil voluptatibus, incidunt illum esse pariatur minima corrupti vitae blanditiis sint excepturi at et.</p>
+        <p>En Gym Capital, nuestra prioridad es brindar a nuestros usuarios la mejor experiencia posible. 
+            Sabemos que comenzar una nueva rutina de ejercicio puede ser abrumador, 
+            y entendemos que a veces puede haber preguntas o dudas que necesiten ser aclaradas. 
+            Es por eso que ofrecemos a nuestros usuarios la posibilidad de contactarnos a través de nuestro sistema de mensajes.
+        </p>
         <a href="#"> <i class="fa fa-phone">
         </i>123-456-789</a>
 
