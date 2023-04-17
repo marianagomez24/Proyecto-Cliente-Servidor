@@ -94,7 +94,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
             <p>Contamos con mas de 200 sedes alrededor de todo el territorio nacional. No dudes en formar parte del mejor gimnasion de Costa Rica.
             </p>
 
-            <a href="#" class="btn">Adquiere tu plan</a>
+            <a href="../PHP/Venta.php" class="btn">Adquiere tu plan</a>
 
         </article>
 
