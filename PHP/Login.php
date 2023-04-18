@@ -18,10 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_stmt_fetch($consulta);
 
     if (password_verify($contraseña, $contrasena_bd)) {
-        // Si la contraseña coincide, iniciar sesión
         $_SESSION['correo'] = $correo_bd;
-        $session_id = session_id(); // Obtener el ID de la sesión
-        setcookie('mi_sesion', $correo_bd, time() + 3600, '/'); // Crear una cookie de sesión con el nombre "mi_sesion"
+        $session_id = session_id(); 
+        setcookie('mi_sesion', $correo_bd, time() + 3600, '/');
         header("Location: http://localhost/Proyecto-Cliente-Servidor-main/PHP/Perfil.php");
         exit();
     } else {
