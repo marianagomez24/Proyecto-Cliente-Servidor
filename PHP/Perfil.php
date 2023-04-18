@@ -56,7 +56,7 @@ require('DatosBD.php');
   </div>
 </div>
 
-<!-- Formulario para subir una nueva foto -->
+
 <div id="edit-photo-form" style="display: none;">
   <form method='post' enctype='multipart/form-data' action='ProcesarFoto.php'>
     <input type="file" name="photo">
