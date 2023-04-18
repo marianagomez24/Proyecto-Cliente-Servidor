@@ -1,17 +1,13 @@
 <?php
 require('Conexion.php');
 
-// Iniciar sesión
 session_start();
 
-// Verificar si el usuario está logueado
 if(!isset($_SESSION['correo'])) {
-  // Si no está logueado, redirigir a la página de login
+ 
   header('Location: login.php');
   exit;
 }
-
-// Obtener el correo del usuario desde la sesión
 $correo = $_SESSION['correo'];
 
 if (!$conexion) {
@@ -26,9 +22,8 @@ if (is_array($datos)) {
   $status= $datos['details']['status'];
   $Descripcion = $datos['details']['purchase_units'][0]['description'];
 
-  // Verificar si el estado es "COMPLETED"
   if ($status === "COMPLETED") {
-    // Actualizar la información de membresía en la tabla de usuarios
+
     switch ($Descripcion) {
       case 'gold':
         $membresiaId = 1;
