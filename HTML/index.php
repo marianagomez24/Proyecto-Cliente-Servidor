@@ -105,7 +105,7 @@ $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 
          <div class="box">
             <figure>
-                <a href="">
+                <a href="../HTML/index.php">
                     <img src="../IMG/ejercicio.png" alt="LogoCapitalGym">
                 </a>
             </figure>
