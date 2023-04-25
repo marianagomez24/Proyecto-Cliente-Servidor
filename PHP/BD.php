@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($present > 0) {
         $_SESSION['email_alert'] = '1';
      
-        header("Location:http://localhost/Proyecto-Cliente-Servidor-main/HTML/PHP/Registro.php");
+        header("Location:http://localhost/Proyecto-Cliente-Servidor-main/PHP/Registro.php");
     } else {
         $contrasena_encriptada = password_hash($contrasena, PASSWORD_BCRYPT);
         $fecha_creacion = date('Y-m-d H:i:s'); 
